@@ -1,0 +1,27 @@
+Package: KnapSacked
+Title: An R Package to implement 'greedy search', 'brute-force search' and 'dynamic programming' on knapsack proble-set
+Description: Implemets the functions required in Lab-6.
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Shahrukh",
+           family = "Iqbal",
+           role = c("aut", "cre"),
+           email = "shaiq681@student.liu.se",
+           comment = c(LiUID = "shaiq681")),
+           person(given = "Mowniesh",
+           family = "Asokan",
+           role = c("aut"),
+           email = "mowas455@student.liu.se",
+           comment = c(LiUID = "mowas455")))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+Depends: 
+    R (>= 2.10)
+VignetteBuilder: knitr
